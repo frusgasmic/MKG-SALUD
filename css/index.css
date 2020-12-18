@@ -156,7 +156,7 @@
     .sec2 {
         width: 100%;
         height: 600px;
-        background-color: #fffff1;
+        background-color: #F5F9FC;
     }
     
     .sec2>article {
@@ -211,8 +211,9 @@
         align-items: flex-start;
         position: relative;
         bottom: 0;
+        margin-left: -60px;
         height: 100%;
-        width: 120%;
+        width: 140%;
     }
     
     .sec3>article>h1 {
