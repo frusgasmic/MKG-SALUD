@@ -7,29 +7,35 @@
     <title>MKG SALUD</title>
     <!--CSS-->
     <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="index.css" />
-
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-
+    <script src="js/index.js"></script>
 </head>
 
 <body>
-    <header>
+    <header id="test">
         <nav>
             <img src="Images/Other/logo.png">
-            <ul class="text-uppercase">
-                <li><a href="#">Inicio</a></li>
+            <ul class="text-uppercase topnav" id="myTopnav">
+                <li><a href="#" class="active">Inicio</a></li>
                 <li><a href="#">Páginas</a></li>
                 <li><a href="#">Equipo</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Reserva</a></li>
+                <li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -141,11 +147,92 @@
             </div>
         </article>
     </section>
-    <footer>
+    <section class="col-lg-12 col-md-12 col-xs-12 sec4">
+    </section>
+    <section class="col-lg-12 col-md-12 col-xs-12 sec5">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 nuestroteam text-uppercase">
+            <h1>Nuestro</h1>
+            <h2>Equipo</h2>
+            <a href="#"> Conocelos</a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12" id="contenedor-team">
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="Images/Other/grid1.png">
+                </figure>
+                <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="Images/Other/grid2.png">
+                </figure>
+                <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="Images/Other/grid3.png">
+                </figure>
+            </div>
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="Images/Other/grid4.png">
+                </figure>
+                <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="Images/Other/grid5.png">
+                </figure>
+                <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <img src="Images/Other/grid6.png">
+                </figure>
+            </div>
+        </div>
+        <div class="col-lg-12- col-md-12 col-sm-12 col-xs-12 nservicios">
+            <div class="row">
+                <div class="text-uppercase col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <h1>Nuestros</h1>
+                    <h2>Servicios</h2>
+                    <img src="Images/Other/barrita2.png">
+                </div>
+                <div class="row col-lg-9 col-md-9 col-sm-9 col-xs-12 text-uppercase">
+                    <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 nserviciosh3">
+                        <h3 class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="Images/Other/icoflechaabajo.png">Terápias</h3>
+                        <h3 class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="Images/Other/icoflechaabajo.png">Controles Médicos</h3>
+                        <h3 class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="Images/Other/icoflechaabajo.png">Tratamientos</h3>
+                    </div>
+                    <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 nserviciosh3">
+                        <h3 class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="Images/Other/icoflechaabajo.png">Rehabilitaciones</h3>
+                        <h3 class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="Images/Other/icoflechaabajo.png">Areas Médicas</h3>
+                        <h3 class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><img src="Images/Other/icoflechaabajo.png">Medicina Estética</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer class="ff col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <section class="row section1">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <img src="Images/Other/logo.png">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus earum dolorum rem, in optio facere quos repellat harum fuga doloribus sit aliquid corrupti ab! Minima aut id doloremque molestiae aspernatur.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus earum dolorum rem, in optio facere quos repellat harum fuga doloribus sit aliquid corrupti ab! Minima aut id doloremque molestiae aspernatur.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus earum dolorum rem, in optio facere quos repellat harum fuga doloribus sit aliquid corrupti ab! Minima aut id doloremque molestiae aspernatur.</p>
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pfooter">
+                <h3 class="text-uppercase">Contacto</h3>
+                <p>+52 6550 1630<br> +52 6726 6333<br> +52 (55) 3920 3080<br><br> direccion@cecapmkg.edu.mx<br> www.cecapmkg.edu.mx<br><br> Calle Budapest No. 103, Col. Valle<br> Dorado, Tlalnepantla de Baz, Estado de Mèxico,<br> Mèxico, C.P. 54020</p>
+            </div>
+        </section>
+        <section class="row section2">
+            <p>© 2020 MKG SALUD. All Rights Reserved.<br><a href="#">Politica de privacidad</a> |
+                <a href="#">Terminos de uso</a></span>
+            </p>
+        </section>
     </footer>
     <script type="application/javascript" src="bootstrap-3.4.1-dist/js/bootstrap.js"></script>
-
+    <script type="application/javascript">
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
