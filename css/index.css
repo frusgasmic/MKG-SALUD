@@ -210,9 +210,9 @@
         z-index: 0;
         align-items: flex-start;
         position: relative;
-        bottom: 0;
         margin-left: -60px;
-        height: 100%;
+        top: -55px;
+        height: 108%;
         width: 140%;
     }
     
