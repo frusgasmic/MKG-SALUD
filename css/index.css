@@ -135,8 +135,6 @@
         color: white;
     }
     
-    .topnav {}
-    
     .botonpri {
         margin: 5px;
         width: 45%;
@@ -243,6 +241,14 @@
         width: 100%;
     }
     
+    .redes>img {
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        right: -20px;
+        bottom: -40px;
+    }
+    
     .redes>a {
         width: 49px;
         height: 49px;
@@ -250,12 +256,49 @@
     }
     
     .sec4 {
-        height: 500px;
         width: 100%;
-        background-image: url('../Images/Fondos/sec4.png');
-        background-repeat: no-repeat;
+        height: 750px;
+        background-image: url('../Images/Fondos/sec4-1.png');
+        text-align: center;
+        background-position: center center;
         background-size: cover;
-        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .sec4:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(36, 180, 185, 0.9);
+    }
+    
+    .sec4>article {
+        margin-top: 100px;
+    }
+    
+    .sec4>article>h2 {
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .sec4>article>h1 {
+        font-size: 130px;
+        font-weight: 900;
+        color: white;
+        margin-bottom: 60px;
+    }
+    
+    .sec4>article>a {
+        border: 1px solid white;
+        font-size: 60px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+        padding: 40px 300px 40px 300px;
     }
     
     .sec5 {
@@ -535,7 +578,7 @@
     .carrusel>div {
         float: left;
         height: 500px;
-        width: 467px;
+        width: 420px;
         margin-right: 1px;
         text-align: center;
     }
@@ -576,7 +619,7 @@
         bottom: 30px;
         font-size: 35px;
         left: inherit;
-        z-index: 999;
+        z-index: 7;
         width: 2%;
         margin-right: 5%;
     }
