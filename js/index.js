@@ -49,6 +49,10 @@ $(window).scroll(function(event) {
         }
         if (scrollTop >= 3700) {
             contar();
+            var elemento2 = document.getElementsByClassName("tratamientosroww");
+            for (var i = 0; i < elemento2.length; i++) {
+                elemento2[i].className += " animate__animated animate__bounceInUp";
+            }
         }
     }
     if (scrollTop < 200) {
