@@ -41,11 +41,15 @@ $(window).scroll(function(event) {
     if (scrollTop >= 200) {
         document.getElementById('test').style.backgroundColor = 'rgba(17, 33, 52,.96)';
         document.getElementById('test').style.Color = '#000';
+        if (scrollTop <= 700) {
+            var elemento = document.getElementsByClassName("sec2article");
+            for (var i = 0; i < elemento.length; i++)
+                elemento[i].className += " animate__animated animate__bounce";
+        }
         if (scrollTop >= 2700) {
             contar();
         }
     }
-
     if (scrollTop < 200) {
         document.getElementById('test').style.backgroundColor = 'transparent';
     }
