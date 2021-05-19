@@ -1,12 +1,7 @@
-    * {
-        overflow: hidden;
-    }
-    
     body {
         padding: 0;
         margin: 0;
         font-family: 'Lato', sans-serif !important;
-        overflow-x: hidden;
     }
     
     header {
@@ -191,6 +186,7 @@
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+        overflow: hidden;
     }
     
     .sec3:before {
@@ -574,6 +570,7 @@
     }
     
     .carrusel {
+        overflow: hidden;
         width: 4000px;
         left: 0px;
         position: absolute;
