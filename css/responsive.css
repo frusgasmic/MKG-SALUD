@@ -100,7 +100,7 @@
                 
                 @media screen and (max-width: 768px) {}
                 
-                @media screen and (max-width: 420px) {
+                @media screen and (max-width: 400px) {
                     .carrusel1-2 {
                         display: none;
                     }
