@@ -18,6 +18,34 @@
     display: none;
 }
 
+@media screen and (max-width: 980px) {
+    #carrusel1-3-2 {
+        display: none;
+    }
+    #text-section1>h1:last-child {
+        font-size: 40px;
+    }
+    #carrusel1-3-1 {
+        width: 50%;
+    }
+    #carrusel1-3-3 {
+        width: 50%;
+    }
+    .sec2 {
+        height: 1000px;
+    }
+    .sec4>article>a {
+        padding: 30px 100px 30px 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {}
+
+
+/*NavBar Responsive*/
+
 @media screen and (max-width: 700px) {
     header>nav>img {
         display: none;
